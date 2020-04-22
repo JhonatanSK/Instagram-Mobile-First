@@ -42,9 +42,84 @@ body{
 	border: 2px solid red;
 }
 
+main{
+	padding: 0 5%;
+}
 
+.card{
+	background-color:#FFF;
+	margin-bottom: 25px;
+	border-radius: 20px;
+	border: 1px solid rgb(201, 195, 195);
+}
 
+.card__header{
+	height: 65px;
+	width: 100%;
+	padding: 1.5%;
+}
 
+.card__header-person{
+	display: flex;
+}
+
+.header__people--card{
+	height: 55px;
+	width: 55px;
+	padding-right: 0px;
+}
+
+.card__header-name{
+	align-items: center;
+	width: 100%;
+	height: -webkit-fill-available;
+    display: flex;
+    font-size: 1em;
+	justify-content: space-between;
+	padding: 5px 25px;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+.card__img img{
+	height:auto;
+	width: 100%;
+}
+
+.card__buttons{
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 3%
+}
+
+.card__button-group i{
+	padding-right: 30px;
+}
+
+.card__button i{
+	font-size: 1.7em;
+}
+
+.card__info-like{
+	width: 100%; 
+	display: flex;
+	background-color: rgb(230, 227, 227);
+	padding: 1.5%;
+	border-radius: 0 0 20px 20px;
+	
+}
+
+.card__info-like p{
+	padding-left: 6px;
+}
+
+.header__people--like{
+	height: 40px;
+	width: 40px;
+	padding-right: 0px;
+	display: flex;
+}
 
 
 
